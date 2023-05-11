@@ -7,10 +7,10 @@ echo "<div class='header'>
        </a>
        </div>
         <div class='main_div_toolbar'>
-        <a href='/portfolio' ><input class='main_button' type='button' value='Portfolio'></a>
-        <a href='/anciens'><input class='main_button' type='button' value='Anciens'></a>
-        <a href='/matos'><input class='main_button' type='button' value='Matos'></a>
-        <a href='/contact'><input class='main_button' type='button' value='Contact'></a>
+        <a href='https://lchappuis.fr/dbs_website/public/portfolio' ><input class='main_button' type='button' value='Portfolio'></a>
+        <a href='https://lchappuis.fr/dbs_website/public/anciens'><input class='main_button' type='button' value='Anciens'></a>
+        <a href='https://lchappuis.fr/dbs_website/public/matos'><input class='main_button' type='button' value='Matos'></a>
+        <a href='https://lchappuis.fr/dbs_website/public/contact'><input class='main_button' type='button' value='Contact'></a>
         </div>
        </div>";
 ?>

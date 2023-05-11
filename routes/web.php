@@ -13,27 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('https://lchappuis.fr/dbs_website/public/', function () {
     return view('home');
 });
 
-Route::get('contact', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/contact', function(){
     return view('contact');
 });
 
-Route::get('portfolio', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/portfolio', function(){
     return view('portfolio');
 });
 
-Route::get('anciens', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/anciens', function(){
     return view('anciens');
 });
 
-Route::get('matos', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/matos', function(){
     return view('matos');
 });
 
-Route::get('legals', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/legals', function(){
     return view('legals');
 });
 
@@ -42,7 +42,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('*/admin', function(){
+Route::get('https://lchappuis.fr/dbs_website/public/admin', function(){
     Voyager::routes();
 });
 
