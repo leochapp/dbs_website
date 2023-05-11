@@ -1,0 +1,64 @@
+
+
+
+.images_portfolio{
+    border-radius: 5px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery {
+    font-size: 0; /* Pour éliminer les espaces blancs entre les images */
+    max-width: 1700px; /* Largeur maximale de la galerie */
+    margin: 0 auto; /* Centrer la galerie horizontalement */
+}
+
+.gallery .image-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 250px; /* Ajouter une hauteur minimale à la div contenant l'image */
+    margin: 10px;
+    position: relative; /* Permet de positionner le nom de l'image */
+}
+
+.gallery img {
+    transition: transform 0.5s ease;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    box-sizing: border-box; /* Pour éviter les problèmes de dimensionnement dûs aux bordures */
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (min-width: 800px) {
+    .gallery .image-container {
+        max-width: calc(45% - 20px);
+    }
+}
+
+
+
+
+.image-name {
+    font-size: large;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(-50%);
+    top: calc(100% + 5px);
+}

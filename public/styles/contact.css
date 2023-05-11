@@ -1,0 +1,141 @@
+/* Style de base */
+.contact_main{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.title_contact{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_list{
+    display: flex;
+    width: 75%;
+}
+
+.section1, .section2 {
+    width: 70%;
+    display: inline-block;
+}
+
+section {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.form-control,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.ul-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.li-contact .a-contact {
+    display: inline-block;
+    margin-left: 20px;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.li-contact .a-contact:hover {
+    color: #666;
+}
+
+.li-contact img {
+    width: 25px;
+    height: 25px;
+}
+
+.section1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Media queries pour les écrans de 768px et moins */
+@media (max-width: 1000px) {
+    .contact_main {
+        width: 100%;
+        text-align: center;
+    }
+    .contact_list {
+        display: block;
+        width: 100%;
+    }
+    .section1,
+    .section2 {
+        width: 100%;
+    }
+    section {
+        margin: 20px 0;
+    }
+    body {
+        padding-top: 80px; /* Ajout d'un padding pour faire de la place pour le menu */
+    }
+    .title_contact {
+        margin: 40px auto 20px;
+    }
+
+    .form-control,
+    textarea {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .li-contact .a-contact {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .li-contact img {
+        width: 20px;
+        height: 20px;
+    }
+}

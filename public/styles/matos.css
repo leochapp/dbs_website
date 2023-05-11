@@ -1,0 +1,10 @@
+.waiting{
+    align-items: center;
+    text-align: center;
+}
+
+.waiting-img{
+    padding-top: 2%;
+    width: 10%;
+    height: auto;
+}
